@@ -89,8 +89,4 @@ object SoftKeyBoardUtils {
         }
     }
 
-    interface SoftKeyStateListener {
-        fun softKeyShowEvent(softKeyHeight: Int)
-        fun softKeyHideEvent()
-    }
 }
